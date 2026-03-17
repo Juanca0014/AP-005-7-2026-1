@@ -3,4 +3,4 @@ En esta carpeta se encuentran dos codigos completamente comentados relacionados 
 -Las lineas comentadas como (##) corresponden a verdaderos comentarios sobre el funcionamiento
 -Las lineas comentadas como (#) son codigo y basta con descomentarlas para poder ejecutarlas
 -El codigo pese a estar comentado se encuentra correctamente identado, evitar borrar cosas más 
-allá del simbolo de comentario (#) para un correcto funcionamiento
+ allá del simbolo de comentario (#) para un correcto funcionamiento

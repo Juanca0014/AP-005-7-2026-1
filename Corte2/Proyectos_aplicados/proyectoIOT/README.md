@@ -78,3 +78,13 @@ datos_potenciometro.csv = contiene los datos del potenciómetro leídos por la E
 Carpeta static = donde se almacena la gráfica de matplotlib, debe llamarse así para que Flask la reconozca  
 
 Carpeta templates = contiene la plantilla HTML de la página web, incluyendo el archivo index.html  
+
+## Demostración
+
+<p align="center">
+  <img src="./imagenes/tabla.png" width="600">
+</p>
+
+<p align="center">
+  <img src="./imagenes/grafico.png" width="600">
+</p>

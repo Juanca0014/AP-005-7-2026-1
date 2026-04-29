@@ -1,4 +1,4 @@
-<h1 align="center">📊 Sistema de Adquisición y Visualización de Datos con ESP32</h1>
+<h1 align="center">▣ Sistema de Adquisición y Visualización de Datos con ESP32</h1>
 
 <p align="center">
 Lectura de un potenciómetro con ESP32, almacenamiento en CSV y visualización web con Flask y Matplotlib.
@@ -6,7 +6,7 @@ Lectura de un potenciómetro con ESP32, almacenamiento en CSV y visualización w
 
 ---
 
-## 🧠 Descripción General
+## ▧ Descripción General
 
 Este proyecto implementa un sistema completo de adquisición, procesamiento y visualización de datos analógicos utilizando una **ESP32**.
 
@@ -14,7 +14,7 @@ El sistema captura el valor de un potenciómetro, lo transmite por comunicación
 
 ---
 
-## 🔄 Flujo del Sistema
+## ⇄ Flujo del Sistema
 
 1. La ESP32 lee el valor del potenciómetro (ADC)  
 2. Envía los datos por el puerto serial  
@@ -27,7 +27,7 @@ El sistema captura el valor de un potenciómetro, lo transmite por comunicación
 
 ---
 
-## 🧰 Materiales
+## ▣ Materiales
 
 - ESP32  
 - Cable USB  
@@ -36,7 +36,7 @@ El sistema captura el valor de un potenciómetro, lo transmite por comunicación
 
 ---
 
-## ⚙️ Tecnologías Utilizadas
+## ⚙ Tecnologías Utilizadas
 
 - Python  
 - Flask  
@@ -46,7 +46,7 @@ El sistema captura el valor de un potenciómetro, lo transmite por comunicación
 
 ---
 
-## 📁 Estructura del Proyecto
+## ▦ Estructura del Proyecto
 
 ```bash
 proyecto/
@@ -61,3 +61,20 @@ proyecto/
 │
 └── templates/
     └── index.html
+```
+
+## 📄 Descripción de Archivos
+
+ESP.py = realiza la lectura de datos del potenciómetro y los envía por serial, se carga en el microcontrolador  
+
+serial_a_csv.py = convierte la lectura del serial y la guarda en un archivo .csv, limpia los datos de ruido o no relevantes  
+
+app_flask.py = lee el csv y grafica la imagen con matplotlib, genera la conexión con el servidor y carga el archivo HTML desde la carpeta templates  
+
+Flask_prueba.py = es un ejemplo de una web Flask  
+
+datos_potenciometro.csv = contiene los datos del potenciómetro leídos por la ESP, en este caso está lleno de datos cercanos a 0  
+
+Carpeta static = donde se almacena la gráfica de matplotlib, debe llamarse así para que Flask la reconozca  
+
+Carpeta templates = contiene la plantilla HTML de la página web, incluyendo el archivo index.html  

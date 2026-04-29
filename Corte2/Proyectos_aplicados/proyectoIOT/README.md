@@ -81,10 +81,15 @@ Carpeta templates = contiene la plantilla HTML de la página web, incluyendo el 
 
 ## Demostración
 
+Imagenes de ejemplo en las cuales se puede visualizar el resultado esperado de la ejecución de la pagina web.
 <p align="center">
-  <img src="./imagenes/tabla.png" width="600">
+  <img src="./imagenes/resumen.png" width="600">
 </p>
 
 <p align="center">
   <img src="./imagenes/grafico.png" width="600">
+</p>
+
+<p align="center">
+  <img src="./imagenes/tabla.png" width="600">
 </p>
